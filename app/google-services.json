@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "64911552144",
+    "firebase_url": "https://visiapp-f45a8.firebaseio.com",
+    "project_id": "visiapp-f45a8",
+    "storage_bucket": "visiapp-f45a8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64911552144:android:c85b6a9872a36893",
+        "android_client_info": {
+          "package_name": "cis.pintu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64911552144-ljsat3v3b413362j040gml0s82qvhibn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvFYzzVXvCm4n1h64P1S2cupAjq9XPpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64911552144:android:0cbe031db43a033b",
+        "android_client_info": {
+          "package_name": "wyse.android.visimaster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64911552144-ljsat3v3b413362j040gml0s82qvhibn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvFYzzVXvCm4n1h64P1S2cupAjq9XPpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64911552144:android:9c319be00eebbda0",
+        "android_client_info": {
+          "package_name": "wyse.cis.visi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64911552144-ljsat3v3b413362j040gml0s82qvhibn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvFYzzVXvCm4n1h64P1S2cupAjq9XPpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64911552144:android:bdfd59831f3c3337",
+        "android_client_info": {
+          "package_name": "wyse.cis.visisupport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64911552144-ljsat3v3b413362j040gml0s82qvhibn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvFYzzVXvCm4n1h64P1S2cupAjq9XPpU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

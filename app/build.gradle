@@ -1,0 +1,50 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    buildToolsVersion "28.0.3"
+
+    defaultConfig {
+        applicationId "cis.pintu"
+        minSdkVersion 21
+        targetSdkVersion 28
+        versionCode 1017
+        versionName "1.0.17"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+android {
+    signingConfigs {
+        buildTypes {
+            debug {
+                buildConfigField "java.util.Date", "BUILD_TIME", "new java.util.Date(" + System.currentTimeMillis() + "L)"
+            }
+            release {
+                buildConfigField "java.util.Date", "BUILD_TIME", "new java.util.Date(" + System.currentTimeMillis() + "L)"
+            }
+        }
+    }
+}
+
+android {
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    testImplementation 'junit:junit:4.12'
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.google.firebase:firebase-messaging:11.2.2'
+}
+
+apply plugin: 'com.google.gms.google-services'
